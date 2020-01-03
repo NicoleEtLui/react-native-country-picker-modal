@@ -110,7 +110,7 @@ export interface FlagButtonProps {
   withFlagButton?: boolean
   containerButtonStyle?: StyleProp<ViewStyle>
   countryCode?: CountryCode
-  placeholder: string
+  placeholder?: string
   onOpen?(): void
 }
 
